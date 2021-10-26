@@ -13,35 +13,33 @@
             <div id="title-container">
                 <h3 id="title">To-Do-List</h3>
             </div>
-            <div id="header-buttons">
-                <nav id="navigation">
-                    <button id="sidebar">Sidebar</button>
-                    <button id="home">Home</button>
-                </nav>
-            </div>  
         </div>
             <div id="side-menu">
                 <ul>
-                    <a id="home-button">Home</a>
-                    <a id="today-button">Today</a>
+                  <div id="side-buttons">
+                    <button id="home-button">Inbox</button>
                     <br>
+                    <button id="today-button">Today</button>
                     <br>
-                    <a id="projects">Projects</a>
+                    <button id="week">This Week</button>
+                  </div>
+                  <div id="project-section">
+                    <div id="project">Projects</div>
                     <ul id="project-list">
                         <li>Project 1</li>
                         <li>Project 2</li>
                         <button id="new-project">+ New Project</button>
                     </ul>
+                  </div>
+                    <button id="new-task">+</button>
                 </ul>
             </div>
-        <div id="to-do-list">
-            <div id="project-title">
+        <div id="to-do-body">
+            <div id="project-title">Inbox
                 <div id="task">
                 </div>
             </div>
-            <button id="new-task">+</button>
         </div>
-        
     </div>
     
     <script src="bundle.js"></script>
